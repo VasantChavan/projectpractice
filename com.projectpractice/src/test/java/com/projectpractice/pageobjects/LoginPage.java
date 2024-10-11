@@ -5,7 +5,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-//import com.inetbanking_hybridframework.pageobjects.HomePage;
 
 public class LoginPage {
 	WebDriver driver;
@@ -44,14 +43,10 @@ public class LoginPage {
 		txt_password.sendKeys(password);
 
 	}
-
-	//public HomePage clickonLoginBtn() {
-		//loginbtn.click();
-		//return new HomePage(driver);
-		
-
-	//}
-
+	public void clickOnLoginBtn()
+	{
+		loginbtn.click();
+	}
 	public void clickonRestBtn() {
 		resetbtn.click();
 	}

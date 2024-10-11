@@ -8,10 +8,11 @@ public class ConfigReader {
 
 	Properties prop;
 
-	public ConfigReader() {
+	public ConfigReader(String filepath) {
 
+		
 		// Create File Class object and pass location of config properties file to constructor
-		File f = new File("./Config/prop.properties");
+		File f = new File(filepath);
 
 		try {
 			FileInputStream fis = new FileInputStream(f);
