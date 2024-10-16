@@ -4,8 +4,8 @@ import org.openqa.selenium.WebDriver;
 
 public class NewAccountPage {
 
-public NewAccountPage (WebDriver driver) {
-		
+	public NewAccountPage(WebDriver driver) {
+
 	}
 
 }

@@ -3,9 +3,9 @@ package com.projectpractice.pageobjects;
 import org.openqa.selenium.WebDriver;
 
 public class NewCustomerPage {
-	
-	public NewCustomerPage (WebDriver driver) {
-		
+
+	public NewCustomerPage(WebDriver driver) {
+
 	}
 
 }

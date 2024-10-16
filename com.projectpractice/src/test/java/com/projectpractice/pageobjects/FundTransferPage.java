@@ -4,7 +4,7 @@ import org.openqa.selenium.WebDriver;
 
 public class FundTransferPage {
 
-public FundTransferPage (WebDriver driver) {
-		
+	public FundTransferPage(WebDriver driver) {
+
 	}
 }
