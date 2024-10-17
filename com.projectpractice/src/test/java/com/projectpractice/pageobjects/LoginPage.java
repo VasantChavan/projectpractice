@@ -5,7 +5,6 @@ import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
 import org.openqa.selenium.support.PageFactory;
 
-
 public class LoginPage {
 	WebDriver driver;
 
@@ -43,14 +42,13 @@ public class LoginPage {
 		txt_password.sendKeys(password);
 
 	}
-	public void clickOnLoginBtn()
-	{
+
+	public void clickOnLoginBtn() {
 		loginbtn.click();
 	}
+
 	public void clickonRestBtn() {
 		resetbtn.click();
 	}
-
-
 
 }
